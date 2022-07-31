@@ -2,7 +2,7 @@
 ## A simple word-guessing game.
 
 This project is a look alike of the original Wordle Game of the New York Times.This project was build using React.js and JSON server.
-**Website Link :-** https://dinesh0402.github.io/wordle_json_server/
+### Website Link :- https://dinesh0402.github.io/wordle_json_server/
 
 ### How the app works :-
 * 👉 React is used to handle events like current guess, matching the guess, adding color to the guess based on its positions, etc.
