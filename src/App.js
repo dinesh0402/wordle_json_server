@@ -5,7 +5,7 @@ function App() {
   const [solution, setSolution] = useState(null)
   
   useEffect(() => {
-    fetch('http://localhost:3001/solutions')
+    fetch('https://my-json-server.typicode.com/dinesh0402/wordle_json_server/solutions')
       .then(res => res.json())
       .then(json => {
         // random int between 0 & 14

@@ -4,7 +4,7 @@ export default function Keypad({ usedKeys }) {
   const [letters, setLetters] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:3001/letters')
+    fetch('https://my-json-server.typicode.com/dinesh0402/wordle_json_server/letters')
       .then(res => res.json())
       .then(json => {
         setLetters(json)
